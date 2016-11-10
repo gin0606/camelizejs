@@ -1,5 +1,5 @@
 import assert from 'power-assert'
-import camelize from '../'
+import camelize from '../src/camelize'
 
 const UnderscoreToUpperCamelSpecs = [
   { underscore: 'hoge', camel: 'Hoge' },
