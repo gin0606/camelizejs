@@ -8,6 +8,10 @@
   "files": [
     "lib"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gin0606/camelizejs"
+  },
   "scripts": {
     "build": "NODE_ENV=production babel src --out-dir lib --source-maps inline",
     "test": "mocha --compilers js:babel-register test/*.js",
