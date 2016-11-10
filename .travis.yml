@@ -1,3 +1,11 @@
 language: node_js
 node_js:
   - "6.1"
+
+deploy:
+  provider: npm
+  email: kkgn06@gmail.com
+  api_key:
+    secure: g6Fp+yWXlfBmmJYM0G8Fvi486lGILA621mbucVFavtJ73z9hXxTVU8NrmIOPuTqfCEX+hPjeyeAIvY2gc/tk3mxVKNoFQHX1Yu+Qg+PaBfni0j4ugHMVZtFXlG4nsd4at/UlzN5SyOicPYGwDtij4gmhOJ92CPsLsfgQToCibFQ2mbXPJmzLDtV3kkO/b2CKgmTqHUQZIaewKdgsWr2jeJbMQzStO6pAO+k6y1VqBufOQ5TIEVXkOmtt7V5A/NT5x3zVjNavRTjkh1i0O0+Gm/cQicrctJmqThSj4MRfnUoG/pY4Pb0wr88oPrwxdqPVhO9vayttXtNy+100Vmaej7GlnQYc9E8umsGmYJqdWWFTlb9d/6ViATxhLJXz35UYKfDLw0CToJNsExjRFuB/VJknIxle5qmASsKX47DqwkzpoD4QfnpEZZqSxH7gmAI+1Ifgbx7/YoWQ3xQGXKKFNMY5AEBuoYkwyCaNhtf8IGiz9Uyi2UFmWfNJcnFIRbbV02bZx9efkzcx0W5jcR7U1kB1JlY8bJgvYQ8TynmlnFbcjyig5zmge4lhIeLimvEwxiwEspxqrmA97p+C9GyegSSQYtKtvMNDJfM+NH9Xh/bOvit4kluRVMcKnzW7mTwhIiLNdjk3To2AXBM/ZzvfYzcIOamnD8ckg9aWAo1Jj+s=
+  on:
+    tags: true
