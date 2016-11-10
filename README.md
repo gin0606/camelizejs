@@ -1,4 +1,4 @@
-# camelizejs
+# camelizejs [![Build Status](https://travis-ci.org/gin0606/camelizejs.svg?branch=master)](https://travis-ci.org/gin0606/camelizejs)
 Converts strings to UpperCamelCase.
 
 ## Installation
